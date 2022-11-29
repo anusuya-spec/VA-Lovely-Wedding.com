@@ -28,7 +28,7 @@ URL:            http://themeforest.net/user/themexriver
 /*---------------------------
 	Fonts
 ----------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes");
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes');
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   background-color: #fff;
   font-size: 18px;
   font-size: 1rem;
@@ -327,7 +327,7 @@ a:focus {
 }
 
 .video-player:before {
-  content: "";
+  content: '';
   background-color: rgba(94, 154, 142, 0.5);
   width: 100%;
   height: 100%;
@@ -337,32 +337,38 @@ a:focus {
   z-index: 100;
 }
 
-.section-title, .section-title-white {
+.section-title,
+.section-title-white {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
 }
 
 @media (max-width: 767px) {
-  .section-title, .section-title-white {
+  .section-title,
+  .section-title-white {
     margin-bottom: 50px;
   }
 }
 
-.section-title .vertical-line, .section-title-white .vertical-line {
+.section-title .vertical-line,
+.section-title-white .vertical-line {
   width: 18px;
   height: 42px;
   top: 0;
 }
 
 @media (max-width: 991px) {
-  .section-title .vertical-line, .section-title-white .vertical-line {
+  .section-title .vertical-line,
+  .section-title-white .vertical-line {
     height: 35px;
   }
 }
 
-.section-title .vertical-line, .section-title-white .vertical-line,
-.section-title .vertical-line span, .section-title-white .vertical-line span {
+.section-title .vertical-line,
+.section-title-white .vertical-line,
+.section-title .vertical-line span,
+.section-title-white .vertical-line span {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -372,7 +378,8 @@ a:focus {
   transform: translateX(-50%);
 }
 
-.section-title .vertical-line span, .section-title-white .vertical-line span {
+.section-title .vertical-line span,
+.section-title-white .vertical-line span {
   background: rgba(94, 154, 142, 0.2);
   width: 2px;
   height: 42px;
@@ -380,32 +387,37 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .section-title .vertical-line span, .section-title-white .vertical-line span {
+  .section-title .vertical-line span,
+  .section-title-white .vertical-line span {
     height: 35px;
   }
 }
 
 @media (max-width: 767px) {
-  .section-title .vertical-line span, .section-title-white .vertical-line span {
+  .section-title .vertical-line span,
+  .section-title-white .vertical-line span {
     height: 30px;
     top: 15px;
   }
 }
 
-.section-title .vertical-line span i, .section-title-white .vertical-line span i {
+.section-title .vertical-line span i,
+.section-title-white .vertical-line span i {
   position: absolute;
   left: -34px;
   top: -63px;
 }
 
 @media (max-width: 991px) {
-  .section-title .vertical-line span i, .section-title-white .vertical-line span i {
+  .section-title .vertical-line span i,
+  .section-title-white .vertical-line span i {
     left: -28px;
     top: -54px;
   }
 }
 
-.section-title .vertical-line span i:before, .section-title-white .vertical-line span i:before {
+.section-title .vertical-line span i:before,
+.section-title-white .vertical-line span i:before {
   margin: 0;
   font-size: 65px;
   font-size: 3.61111rem;
@@ -414,14 +426,16 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .section-title .vertical-line span i:before, .section-title-white .vertical-line span i:before {
+  .section-title .vertical-line span i:before,
+  .section-title-white .vertical-line span i:before {
     font-size: 55px;
     font-size: 3.05556rem;
   }
 }
 
-.section-title .vertical-line:before, .section-title-white .vertical-line:before {
-  content: "";
+.section-title .vertical-line:before,
+.section-title-white .vertical-line:before {
+  content: '';
   background: rgba(94, 154, 142, 0.2);
   width: 45px;
   height: 2px;
@@ -436,14 +450,16 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .section-title .vertical-line:before, .section-title-white .vertical-line:before {
+  .section-title .vertical-line:before,
+  .section-title-white .vertical-line:before {
     width: 40px;
     height: 2px;
   }
 }
 
-.section-title h2, .section-title-white h2 {
-  font-family: "Great Vibes", cursive;
+.section-title h2,
+.section-title-white h2 {
+  font-family: 'Great Vibes', cursive;
   background-color: rgba(94, 154, 142, 0.1);
   font-size: 46px;
   font-size: 2.55556rem;
@@ -458,14 +474,16 @@ a:focus {
 }
 
 @media (max-width: 1199px) {
-  .section-title h2, .section-title-white h2 {
+  .section-title h2,
+  .section-title-white h2 {
     font-size: 40px;
     font-size: 2.22222rem;
   }
 }
 
 @media (max-width: 991px) {
-  .section-title h2, .section-title-white h2 {
+  .section-title h2,
+  .section-title-white h2 {
     font-size: 35px;
     font-size: 1.94444rem;
     margin-top: 52px;
@@ -473,7 +491,8 @@ a:focus {
 }
 
 @media (max-width: 767px) {
-  .section-title h2, .section-title-white h2 {
+  .section-title h2,
+  .section-title-white h2 {
     font-size: 30px;
     font-size: 1.66667rem;
     padding: 8px 10px 3px;
@@ -482,7 +501,8 @@ a:focus {
 }
 
 @media (max-width: 767px) {
-  .section-title h2, .section-title-white h2 {
+  .section-title h2,
+  .section-title-white h2 {
     margin-top: 45px;
   }
 }
@@ -498,7 +518,8 @@ a:focus {
   opacity: 0.4;
 }
 
-.section-title-white .vertical-line:before, .section-title-white .vertical-line:after {
+.section-title-white .vertical-line:before,
+.section-title-white .vertical-line:after {
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -527,7 +548,9 @@ a:focus {
   text-transform: uppercase;
 }
 
-.theme-btn:hover, .theme-btn:focus, .theme-btn:active {
+.theme-btn:hover,
+.theme-btn:focus,
+.theme-btn:active {
   background-color: #548a7f;
   color: #fff;
 }
@@ -619,7 +642,8 @@ a:focus {
 }
 
 .page-title {
-  background: url("../images/page-title.jpg") center center/cover no-repeat local;
+  background: url('../images/page-title.jpg') center center/cover no-repeat
+    local;
   height: 300px;
   text-align: center;
   position: relative;
@@ -634,7 +658,7 @@ a:focus {
 }
 
 .page-title:before {
-  content: "";
+  content: '';
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
@@ -719,7 +743,7 @@ a:focus {
 }
 
 .page-title .breadcrumb ul > li + li:before {
-  content: "/";
+  content: '/';
   position: absolute;
   left: -5px;
   top: 2px;
@@ -755,7 +779,7 @@ a:focus {
 }
 
 .preloader .icon:before {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   position: absolute;
@@ -908,7 +932,7 @@ a:focus {
 
 .blog-sidebar .categories-widget ul li a:before {
   font-family: FontAwesome;
-  content: "\f105";
+  content: '\f105';
   color: #182a4d;
   position: absolute;
   left: 2px;
@@ -983,7 +1007,7 @@ a:focus {
 
 .blog-sidebar .populer-tags-widget ul li a:before {
   font-family: FontAwesome;
-  content: "\f02b";
+  content: '\f02b';
   font-size: 13px;
   color: rgba(94, 154, 142, 0.3);
   position: absolute;
@@ -1153,9 +1177,15 @@ a:focus {
   .site-header #navbar > ul > li > .sub-menu > .menu-item-has-children > a {
     position: relative;
   }
-  .site-header #navbar > ul > li > .sub-menu > .menu-item-has-children > a:before {
-    font-family: "FontAwesome";
-    content: "\f105";
+  .site-header
+    #navbar
+    > ul
+    > li
+    > .sub-menu
+    > .menu-item-has-children
+    > a:before {
+    font-family: 'FontAwesome';
+    content: '\f105';
     font-size: 15px;
     font-size: 0.83333rem;
     position: absolute;
@@ -1201,8 +1231,8 @@ a:focus {
     position: relative;
   }
   .site-header #navbar > ul .menu-item-has-children > a:before {
-    font-family: "FontAwesome";
-    content: "\f107";
+    font-family: 'FontAwesome';
+    content: '\f107';
     font-size: 15px;
     font-size: 0.83333rem;
     position: absolute;
@@ -1440,18 +1470,21 @@ a:focus {
 }
 
 /*** header style 1 ****/
-.header-style-1 .couple-logo, .header-style-2 .couple-logo {
+.header-style-1 .couple-logo,
+.header-style-2 .couple-logo {
   margin-top: 30px;
 }
 
 @media (max-width: 991px) {
-  .header-style-1 .couple-logo, .header-style-2 .couple-logo {
+  .header-style-1 .couple-logo,
+  .header-style-2 .couple-logo {
     margin-top: 0;
   }
 }
 
-.header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
-  font-family: "Great Vibes", cursive;
+.header-style-1 .couple-logo h1,
+.header-style-2 .couple-logo h1 {
+  font-family: 'Great Vibes', cursive;
   font-size: 35px;
   font-size: 1.94444rem;
   margin: 0;
@@ -1459,34 +1492,40 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
+  .header-style-1 .couple-logo h1,
+  .header-style-2 .couple-logo h1 {
     font-size: 30px;
     font-size: 1.66667rem;
   }
 }
 
-.header-style-1 .couple-logo .fi:before, .header-style-2 .couple-logo .fi:before {
+.header-style-1 .couple-logo .fi:before,
+.header-style-2 .couple-logo .fi:before {
   font-size: 25px;
   font-size: 1.38889rem;
 }
 
 @media (max-width: 991px) {
-  .header-style-1 .couple-logo .fi:before, .header-style-2 .couple-logo .fi:before {
+  .header-style-1 .couple-logo .fi:before,
+  .header-style-2 .couple-logo .fi:before {
     font-size: 20px;
     font-size: 1.11111rem;
   }
 }
 
-.header-style-1 .couple-logo a, .header-style-2 .couple-logo a {
+.header-style-1 .couple-logo a,
+.header-style-2 .couple-logo a {
   color: #5e9a8e;
 }
 
-.header-style-1 .navigation, .header-style-2 .navigation {
+.header-style-1 .navigation,
+.header-style-2 .navigation {
   border-bottom: 1px solid #ececec;
 }
 
-.header-style-1 .navigation:after, .header-style-2 .navigation:after {
-  content: "";
+.header-style-1 .navigation:after,
+.header-style-2 .navigation:after {
+  content: '';
   width: 100%;
   height: 1px;
   background: #ececec;
@@ -1495,19 +1534,24 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .header-style-1 .navigation, .header-style-2 .navigation {
+  .header-style-1 .navigation,
+  .header-style-2 .navigation {
     padding: 15px;
   }
 }
 
-.header-style-1 #navbar ul li.current-menu-item > a, .header-style-2 #navbar ul li.current-menu-item > a,
-.header-style-1 #navbar ul > li.current-menu-ancestor li.current-menu-item > a, .header-style-2 #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
-.header-style-1 #navbar ul > li.current-menu-ancestor > a, .header-style-2 #navbar ul > li.current-menu-ancestor > a {
+.header-style-1 #navbar ul li.current-menu-item > a,
+.header-style-2 #navbar ul li.current-menu-item > a,
+.header-style-1 #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
+.header-style-2 #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
+.header-style-1 #navbar ul > li.current-menu-ancestor > a,
+.header-style-2 #navbar ul > li.current-menu-ancestor > a {
   color: #5e9a8e;
 }
 
 @media screen and (min-width: 992px) {
-  .header-style-1 #navbar > ul > li > a, .header-style-2 #navbar > ul > li > a {
+  .header-style-1 #navbar > ul > li > a,
+  .header-style-2 #navbar > ul > li > a {
     font-size: 18px;
     font-size: 1rem;
     font-weight: 600;
@@ -1515,31 +1559,37 @@ a:focus {
     padding: 35px 17px;
     text-transform: uppercase;
   }
-  .header-style-1 #navbar > ul .sub-menu, .header-style-2 #navbar > ul .sub-menu {
+  .header-style-1 #navbar > ul .sub-menu,
+  .header-style-2 #navbar > ul .sub-menu {
     -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
   }
-  .header-style-1 #navbar > ul > li .sub-menu a, .header-style-2 #navbar > ul > li .sub-menu a {
+  .header-style-1 #navbar > ul > li .sub-menu a,
+  .header-style-2 #navbar > ul > li .sub-menu a {
     font-size: 16px;
     font-size: 0.88889rem;
     color: #413d3d;
     padding: 10px 15px;
   }
-  .header-style-1 #navbar > ul > li .sub-menu a:hover, .header-style-2 #navbar > ul > li .sub-menu a:hover {
+  .header-style-1 #navbar > ul > li .sub-menu a:hover,
+  .header-style-2 #navbar > ul > li .sub-menu a:hover {
     color: #5e9a8e;
   }
-  .header-style-1 #navbar > ul > li:last-child > ul, .header-style-2 #navbar > ul > li:last-child > ul {
+  .header-style-1 #navbar > ul > li:last-child > ul,
+  .header-style-2 #navbar > ul > li:last-child > ul {
     left: auto;
     right: 0;
   }
-  .header-style-1 #navbar > ul > li:last-child > .sub-menu .sub-menu, .header-style-2 #navbar > ul > li:last-child > .sub-menu .sub-menu {
+  .header-style-1 #navbar > ul > li:last-child > .sub-menu .sub-menu,
+  .header-style-2 #navbar > ul > li:last-child > .sub-menu .sub-menu {
     left: auto;
     right: 100%;
   }
 }
 
 @media (max-width: 991px) {
-  .header-style-1 .navbar-header button, .header-style-2 .navbar-header button {
+  .header-style-1 .navbar-header button,
+  .header-style-2 .navbar-header button {
     top: -2px;
     right: 0;
   }
@@ -1595,7 +1645,7 @@ a:focus {
 }
 
 .hero .slide-item:before {
-  content: "";
+  content: '';
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
@@ -1685,8 +1735,8 @@ a:focus {
 }
 
 .hero .slick-prev:before {
-  font-family: "FontAwesome";
-  content: "\f104";
+  font-family: 'FontAwesome';
+  content: '\f104';
   opacity: 1;
 }
 
@@ -1695,8 +1745,8 @@ a:focus {
 }
 
 .hero .slick-next:before {
-  font-family: "FontAwesome";
-  content: "\f105";
+  font-family: 'FontAwesome';
+  content: '\f105';
   opacity: 1;
 }
 
@@ -1732,7 +1782,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .couple-name-merried-text h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 90px;
   font-size: 5rem;
   color: #fff;
@@ -1846,8 +1896,9 @@ a:focus {
   }
 }
 
-.hero .wedding-announcement .save-the-date:before, .hero .wedding-announcement .save-the-date:after {
-  content: "";
+.hero .wedding-announcement .save-the-date:before,
+.hero .wedding-announcement .save-the-date:after {
+  content: '';
   position: absolute;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1885,7 +1936,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date h4 {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 40px;
   font-size: 2.22222rem;
   color: #fff;
@@ -1979,7 +2030,8 @@ a:focus {
 }
 
 .static-hero {
-  background: url("../images/slider/slide-1.jpg") center center/cover no-repeat local;
+  background: url('../images/slider/slide-1.jpg') center center/cover no-repeat
+    local;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1989,7 +2041,7 @@ a:focus {
 }
 
 .static-hero:before {
-  content: "";
+  content: '';
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
@@ -2007,11 +2059,12 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+  background: url('../images/footer-bg.jpg') center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
   position: relative;
+  background-position: 0 -50px;
 }
 
 @media (max-width: 1199px) {
@@ -2033,7 +2086,7 @@ a:focus {
 }
 
 .site-footer:before {
-  content: "";
+  content: '';
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
@@ -2043,7 +2096,7 @@ a:focus {
 }
 
 .site-footer h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 67px;
   font-size: 3.72222rem;
   color: #fff;
@@ -2280,7 +2333,7 @@ a:focus {
 }
 
 .wedding-couple-section .details .signature {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 28px;
   font-size: 1.55556rem;
   display: block;
@@ -2297,7 +2350,7 @@ a:focus {
 }
 
 .wedding-couple-section .details .signature:before {
-  content: "";
+  content: '';
   background-color: #000;
   width: 15px;
   height: 1px;
@@ -2388,7 +2441,7 @@ a:focus {
 }
 
 .count-down-section:before {
-  content: "";
+  content: '';
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
@@ -2398,7 +2451,7 @@ a:focus {
 }
 
 .count-down-section h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 72px;
   font-size: 4rem;
   color: #fff;
@@ -2526,7 +2579,7 @@ a:focus {
 }
 
 .story-section .story-timeline:after {
-  content: "";
+  content: '';
   background: rgba(94, 154, 142, 0.1);
   width: 2px;
   height: 100%;
@@ -2746,7 +2799,7 @@ a:focus {
 }
 
 .cta:before {
-  content: "";
+  content: '';
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
@@ -2756,7 +2809,7 @@ a:focus {
 }
 
 .cta h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 75px;
   font-size: 4.16667rem;
   color: #fff;
@@ -2785,7 +2838,7 @@ a:focus {
 }
 
 .cta h2 span {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 30px;
   font-size: 1.66667rem;
   display: block;
@@ -3236,10 +3289,10 @@ a:focus {
   -o-filter: grayscale(60%);
   -ms-filter: grayscale(60%);
   filter: grayscale(60%);
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 767px) {
@@ -3307,7 +3360,7 @@ a:focus {
 }
 
 .rsvp-section:after {
-  content: "";
+  content: '';
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
@@ -3389,7 +3442,8 @@ a:focus {
 
 .rsvp-section .form select {
   color: #2a2a2a;
-  background: #e6eceb url(../images/select-icon.png) no-repeat calc(100% - 15px) center;
+  background: #e6eceb url(../images/select-icon.png) no-repeat calc(100% - 15px)
+    center;
 }
 
 .rsvp-section .form textarea {
@@ -3827,7 +3881,11 @@ a:focus {
   margin-right: 7px;
 }
 
-.blog-details-content .tag-social-share .social-share .social-links li:last-child {
+.blog-details-content
+  .tag-social-share
+  .social-share
+  .social-links
+  li:last-child {
   margin-right: 0;
 }
 
@@ -3949,7 +4007,11 @@ a:focus {
   color: #6e6e6e;
 }
 
-.blog-details-content .comments-area .comment-author-metadata .comment-metadata a {
+.blog-details-content
+  .comments-area
+  .comment-author-metadata
+  .comment-metadata
+  a {
   font-size: 14px;
   font-size: 0.77778rem;
   font-style: italic;
